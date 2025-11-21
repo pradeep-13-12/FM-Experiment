@@ -65,6 +65,7 @@ MODEL GRAPH:
 
 
 Program
+```
 clc; clear; close;
 
 // Given parameters
@@ -114,6 +115,7 @@ disp("   Time(s)      Message(V)   FM Modulated(V)");
 for i = 1:10:length(t)
     mprintf("%10.6f   %10.4f   %10.4f\n", t(i), m(i), s_fm(i));
 end
+```
 
 
 Output Waveform
